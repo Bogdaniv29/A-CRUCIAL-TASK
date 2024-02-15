@@ -1,6 +1,21 @@
 .container {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-    outline: 1px solid red;
-  }
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.header {
+}
+.header__nav {
+}
+.header__nav__item {
+}
+.header__nav__link {
+}
+.hero__section {
+}
+.hero__item {
+}
+.hero__item-link {
+}
