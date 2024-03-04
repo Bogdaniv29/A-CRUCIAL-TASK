@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -294,65 +298,87 @@
   justify-content: center;
   align-items: center;
   gap: 19px;
-
 }
 
 .order__form__label {
   color: #959595;
-font-family: "Roboto", sans-serif;
-font-size: 28px;
-font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
 }
 
-.order__form-control-email{
+.order__form-control-email {
   padding: 13px 25px;
   width: 690px;
   border-radius: 50px;
-background: #FFF;
+  background: #fff;
 }
 
 .order__form-control {
   padding: 13px 25px;
   width: 580px;
   border-radius: 50px;
-background: #FFF;
+  background: #fff;
 }
-
 
 .order__btn {
   border-radius: 16px;
-background: #8E32C6;
-color: #FFF;
-font-family: "Roboto", sans-serif;
-font-size: 24px;
-font-weight: 400;
-padding: 20px 48px;
+  background: #8e32c6;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px 48px;
 }
 
+/* footer */
+
 .footer {
+  color: #fff;
+  background-color: #021635;
+  padding-top: 45px;
+  padding-bottom: 50px;
 }
-.footer__adress {
-}
+
 .footer_div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #9b9b9b;
+  padding-bottom: 20px;
+  margin-bottom: 24px;
 }
-.footer__item-text {
-}
+
 .footer__list {
 }
+
 .footer__list-item {
+  font-size: 24px;
+  font-weight: 400;
 }
-.footer__item-email {
-}
+
 .footer__adress_list {
 }
+
 .footer__adress__list-item {
+  text-align: end;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration-line: underline;
 }
+
 .footer__adress__list-item-link {
 }
 .footer__site-info {
+  display: flex;
+  justify-content: space-between;
 }
+
 .footer__site-info-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
 }
+
 .footer__text {
 }
 .footer__counrty {
